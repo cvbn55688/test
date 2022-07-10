@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>排版</title>
+    <style type="text/css">
+    .head{
+        background-color: #003344; color:white; font-weight:blod; font-size:30px;
+        text-align:center;/*文字對齊*/ padding:10px
+    }
+    .content{
+        width:1000px; margin-left:auto; margin-right:auto;
+    }
+    .box{
+        width:280px; padding:15px; margin:10px; background-color: white;
+        display:inline-block; vertical-align:top;
+        text-align:center; height:200px; line-height:30px;
+    }
+    .title{
+        font-weight:bold
+    }
+    .text{
+        padding:2px
+    }
+
+    @media screen and (max-width:600px){ /*判斷使用者為手機*/
+        .head{font-size:24px; text-align:center; width:100%;}
+        .content{width:100%; text-align:center;}
+
+    }
+    /* 使用者使用螢幕且使用著螢幕最大寬度為600px時，套用設定 */
+    </style>
+
+
+</head>
+<body style="margin:0px; background-color: #eeeeee;">
+    <div class="head">ZH的自我介紹</div>
+
+    <div class="content">
+        <div class="box">
+            <div class="title">我的基本資料</div>
+            <br/>
+            <div class="text">性別男</div>
+            <div class="text">住在台灣</div>
+            <div class="text">生日2000/06/19</div>
+
+        </div>
+        <div class="box">
+            <div class="title">我的個人興趣</div>
+            <br/>
+            <div class="text">愛玩滑板</div>
+            <div class="text">喜歡聽電音</div>
+            <div class="text">小胖很可愛</div>
+        </div>
+        <div class="box">
+            <div class="title">聯絡資訊</div>
+            <br/>
+            <div class="text">手機:0953130327</div>
+            <div class="text">IG:cvbn55688</div>
+            <div class="text">E-Mail:qwas5598@gmail.com</div>
+        </div>
+    </div>
+</body>
+</html>
